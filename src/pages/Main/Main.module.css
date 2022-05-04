@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #C4C4C4;
+  height: 423px;
+  color: white;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  font-style: bold;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+.text {
+  width: 438px;
+  margin-left: 30px;
+  margin-bottom: 0;
+}
+
+.itemsContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sertificationBlock {
+  position: relative;
+}
+
+.sertificationTitle {
+  padding: 20px 10px;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  font-size: 24px;
+  font-weight: 400;
+  transform: translateX(-50%);
+  box-shadow: 0px 4px 4px 0px #00000040 inset;
+  background: rgba(255, 255, 255, 0.7);
+  color: #034C82;
+  text-align: center;
+}
+
+.sertificationText {
+  width: 350px;
+  padding: 90px 70px 30px 10px;
+  position: absolute;
+  bottom: 50px;
+  right: 20px;
+  font-size: 15px;
+  box-shadow: 0px 4px 4px 0px #00000040 inset;
+  background: rgba(255, 255, 255, 0.7);
+  color: #034C82;
+  text-align: center;
+}
