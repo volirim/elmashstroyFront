@@ -1,0 +1,22 @@
+.container {
+    flex: 1 1 auto;
+}
+
+.imageBlock {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.imageText {
+    position: absolute;
+    bottom: 26%;
+    right: 1%;
+    text-align: right;
+    font-size: 30px;
+    color: white;
+}

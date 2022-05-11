@@ -1,0 +1,23 @@
+.container {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:active {
+    color: black;
+}
+
+.link:visited {
+    color: black;
+}
+
+.link:focus {
+    color: black;
+}

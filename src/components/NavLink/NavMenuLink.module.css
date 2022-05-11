@@ -9,3 +9,15 @@
     margin-left: 20px;
     color: white;
 }
+
+.link:active {
+    color: white;
+}
+
+.link:visited {
+    color: white;
+}
+
+.link:focus {
+    color: white;
+}

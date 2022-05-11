@@ -1,0 +1,24 @@
+.container {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.imageBlock {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.imageTitle {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    text-align: right;
+    color: white;
+}

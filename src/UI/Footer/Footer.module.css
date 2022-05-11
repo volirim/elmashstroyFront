@@ -1,0 +1,89 @@
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contactsBlock {
+    background: #A1A6AA;
+    display: grid;
+    grid-template-areas: 
+    "a . . ."
+    "b b b b";
+    grid-template-rows: 40px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.logo {
+    grid-area: a;
+    margin-bottom: 20px;
+}
+
+.contacts {
+    grid-area: b;
+    display: grid;
+    grid-template-areas: 
+    "c d";
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    color: white;
+}
+
+.contactsTitle {
+    text-align: center;
+}
+
+.contactsText {
+    text-align: center;
+}
+
+.links {
+    grid-area: d;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.feedbackBlock {
+    background: #525252CC;
+    color: white;
+}
+
+.feedbackTitle {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.feedbackForm {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feedbackFieldsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.feedbackFormInput {
+    margin-bottom: 10px;
+}
+
+.feedbackFormSubmit {
+    font-size: 16px;
+    background: #034C82;
+    color: white;
+    border: 1px solid white;
+}
+
+.feedbackFormTextarea {
+    height: 100px;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.feedbackFormAnnotation {
+    font-size: 13px;
+    margin-bottom: 10px;
+}

@@ -4,14 +4,29 @@ import './index.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Main from './pages/Main/Main';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Join from './pages/Join/Join';
+import Header from './UI/Header/Header';
+import Footer from './UI/Footer/Footer';
+import Council from './pages/Council/Council';
+import Contacts from './pages/Contacts/Contacts';
+import News from './pages/News/News';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Main />} />
-    </Routes>
+    <div className='appContainer'>
+      <Header />
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/join" element={<Join></Join>}></Route>
+          <Route path="/council" element={<Council></Council>}></Route>
+          <Route path="/contacts" element={<Contacts></Contacts>}></Route>
+          <Route path="/news" element={<News></News>}></Route>
+        </Routes>
+        <Footer></Footer>
+    </div>
+      
   </BrowserRouter>  
 );

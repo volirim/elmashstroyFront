@@ -6,11 +6,11 @@ const Header = () => {
             <img src='./static/pictures/logo.svg' alt="logo" className={styles.logo}/>
             <ul className={styles.menu}>
                 <NavMenuLink link='/' name='Главная'></NavMenuLink>
-                <NavMenuLink link='/' name='Новости'></NavMenuLink>
+                <NavMenuLink link='/news' name='Новости'></NavMenuLink>
                 <NavMenuLink link='/' name='Участники'></NavMenuLink>
-                <NavMenuLink link='/' name='Тех совет'></NavMenuLink>
-                <NavMenuLink link='/' name='Вступление'></NavMenuLink>
-                <NavMenuLink link='/' name='Контакты'></NavMenuLink>
+                <NavMenuLink link='/council' name='Тех совет'></NavMenuLink>
+                <NavMenuLink link='/join' name='Вступление'></NavMenuLink>
+                <NavMenuLink link='/contacts' name='Контакты'></NavMenuLink>
             </ul>
         </nav>
     )
